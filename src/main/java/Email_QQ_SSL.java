@@ -13,7 +13,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeUtility;
 
 //查看收件箱邮件
-public class QQEmail_SSL {
+public class Email_QQ_SSL {
     public static void main(String[] args) {
         //设置SSL连接、邮件环境
         Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
